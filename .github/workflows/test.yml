@@ -15,5 +15,4 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: 21
-      - run: |
-          echo ${{toJson(github)}}
+      - run: echo ${{toJson(github)}}
