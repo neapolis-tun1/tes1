@@ -15,4 +15,6 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: 21
-      - run: java -version
+      - run: |
+          java -version
+          echo ${{ github }}
